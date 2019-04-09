@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tracks</title>
+</head>
+<body>
+  <ul>
+    Nazwa
+    {% for track in tracks %}
+      <li>{{ track[0] }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
